@@ -1,6 +1,6 @@
 # Word_Count
-## run and build 
-``` make clean 
+## Run and Build 
+``` 
     make 
     ./main
 ```
