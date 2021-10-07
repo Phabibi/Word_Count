@@ -1,7 +1,7 @@
 # Word_Count
 
 ## Introduction 
-The following repo implements both a parallel and sequential solution to the word count problem using unordered hash map and heap priority queue. Given a space separated input text file, the program will output a text file with the following format <Word  Frequency> where frequencies are in a desc order. There are 3 main components to this implementation, the Reader, Heap and Writer.
+The following repo implements both a parallel and sequential solution to the word count problem using unordered hash map and heap priority queue. Given a space separated input text file, the program will output a text file with the following format _Word  Frequency_ where frequencies are in a desc order. There are 3 main components to this implementation, the Reader, Heap and Writer.
   
 ## Reader
   The reader class is fairly straightforward, using the std::ifstream, the given input file is read line by line and words are inserted into an std::unordered_map where the **keys** are the words and the **values** are the frequencies of each word. I decided to use an unordered_map as opposed to a map in this implementation since the order of the keys are not important hence using an unordered_map guarantees a O(1) look up.
