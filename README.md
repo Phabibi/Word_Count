@@ -27,7 +27,7 @@ The following repo implements both a parallel and sequential solution to the wor
   for step 2-3: at this step we have the heap with all the words in a desc order based on their frequencies and we just need to write them to the file. A possible solution would be to have a thread read from the heap into a buffer while another thread writes from the buffer to the output file at the same time. I decided to go with this solution as it was the most straightforward approach. 
 
  ## Multithread vs Sequential
-  I decided to time both solutions in order to see if there was any performance gain. These were the result for the input file provided:
+  I decided to time both solutions in order to see if there was any performance gain. These were the result for the input file provided:</br>
        multithreaded time: 8.00587 ms</br>
        single_threaded time: 14.6517ms
        
