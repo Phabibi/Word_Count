@@ -1,5 +1,9 @@
 # Word_Count
-
+## run and build 
+``` make clean 
+    make 
+    ./main
+```
 ## Introduction 
 The following repo implements both a parallel and sequential solution to the word count problem using unordered hash map and heap priority queue. Given a space separated input text file, the program will output a text file with the following format _Word  Frequency_ where frequencies are in a desc order. There are 3 main components to this implementation, the Reader, Heap and Writer.
   
